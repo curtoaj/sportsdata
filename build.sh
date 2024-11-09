@@ -5,7 +5,7 @@ set -o errexit
 python -m pip install --upgrade pip
 
 pip install -r requirements.txt
-
+#test	
 flask db init
 flask db migrate
 flask db upgrade
